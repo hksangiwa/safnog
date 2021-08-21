@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+ ServerName safnog.org
+RewriteEngine on
+RewriteCond %{SERVER_NAME} =safnog.org
+ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+# Redirect permanent / https://safnog.org/
+</VirtualHost>
+
