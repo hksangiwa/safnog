@@ -459,8 +459,9 @@ a:focus {
 
 .btn-tra-white {
   color: #fff;
-  background-color: transparent;
-  border-color: #fff;
+  
+  background-color: #C61B2C;
+  border:#fff;
 }
 
 .btn-white,
@@ -1120,7 +1121,8 @@ ul.content-list li:last-child {
 
 .navbar.bg-tra {
   padding: 2.5rem 0;
-  background-color: transparent;  
+  background-color: #fff;
+  opacity: .85;  
 }
 
 .navbar.bg-light { 
@@ -1152,7 +1154,7 @@ ul.content-list li:last-child {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #000000;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -1321,6 +1323,7 @@ ul.content-list li:last-child {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   padding: 0.8rem 1.5rem;
+
 }
 
 /*------------------------------------------*/
@@ -1377,8 +1380,10 @@ ul.content-list li:last-child {
 
 .navbar.scroll .header-socials a,
 .navbar.scroll .btn.btn-tra-white {
-  color: #222;    
-  border-color: #222;  
+  color: #222;
+  background-color: transparent;    
+  border-color: #222;
+  border: 2px solid ;  
 }
 
 .navbar.scroll.black-scroll .header-socials a,
@@ -1575,7 +1580,7 @@ ul.content-list li:last-child {
 
 #hero-13 {
   background-image: url(../images/banner-image-safnog.png);
-  background-position: center bottom; 
+  background-position: left bottom; 
   padding-top: 160px;
   padding-bottom: 100px;
 }
